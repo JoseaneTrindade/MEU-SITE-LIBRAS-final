@@ -1,0 +1,51 @@
+body {
+	font-family:Luminari, fantasy;
+    background-image: url('Imagens/capa.png');
+	background-color: #f5f3f3;
+	font-size: 14px;
+	padding: 0;
+    margin: 0;
+}
+
+.i {
+	margin: 1px;
+	width: 125px;
+}
+
+.menu ul {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	background-color:#79BFEA;
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline-block;
+	background-color: #003060;
+	font-size: 13pt;
+	padding: 15px;
+	margin: 25px;
+	border-radius: 30px;
+	color: white;
+}
+
+.bordafield {
+    border: 3px solid gray;
+    border-radius:10px;
+    padding:10px;
+}
+
+input {
+    border: none;
+    padding: 3%;
+    font-size: 15px;
+    color: #003060;
+    width: 20%;
+}
+
+

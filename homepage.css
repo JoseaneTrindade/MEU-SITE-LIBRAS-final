@@ -1,0 +1,77 @@
+body {
+	font-family:Luminari, fantasy;
+	background-color: #f5f3f3;
+	font-size: 14px;
+	padding: 0;
+    margin: 0;
+}
+
+/*.logo {
+	text-align:center;
+	padding: 0px;
+
+}*/
+
+.i {
+	margin: 5px;
+	width: 125px;
+}
+
+.menu ul {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:#79BFEA;
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline-block;
+	background-color: #0076C0 ;
+	font-size: 13pt;
+	padding: 15px;
+	margin: 25px;
+	border-radius: 30px;
+	color: white;
+}
+
+.fieldset {
+	border: 2px solid gray;
+    border-radius:7px;
+}
+
+.cursos {
+	display: inline-block;
+	border-radius:10px;
+	text-align:center;
+	padding: 36px 0px; 
+}
+
+.cursos h3 {
+	font-family:Didot, serif;
+	color:gray;
+	font-size: 17px;
+}
+
+.cursos a {
+	padding: 10px 15px;
+	border-radius: 20px;
+	background-color: #B0C4DE;
+	color: blue;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+.rodape {
+	background-color:#B0C4DE;
+	font-family: Impact, fantasy;
+	font-weight: 900
+	width: 100px height:100px;
+	color:#0076C0;
+	font-size: 13pt;
+	padding: 15px;
+}

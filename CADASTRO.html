@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="Imagens/logositelibrass.png">
+    <title>Cadastre-se</title>
+ 
+</head>
+
+<body>
+    <img src="Imagens/capa.png" width="100%">
+    <div class="ll">
+        <fieldset class="bordafield">
+            <h1> CADASTRE-SE </h1>
+            <form action="cadastro.php" method="get">
+                <fieldset class="bordafield">
+                    <legend>Identificação Usuário</legend>
+                    <p>
+                        <label for="name">Nome</label><br>
+                        <input class="bordafield" type="text" name="nome" id="inome" required placeholder="Digite seu nome">
+                    </p>
+
+                    <p>
+                        <label for="usuario">Usuario</label><br>
+                        <input class="bordafield" type="text" name="usuario" id="iusuario" required placeholder="Digite o nome de usuário">
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail</label><br>
+                        <input class="bordafield" type="email" name="email" id="iemail" required placeholder="Digite seu E-mail">
+                    </p>
+
+                    <fieldset class="bordafield" >
+                        <legend>sexo</legend>
+                        <input class="bordafield" type="radio" name="sexo" id="imasculino" id="imasc"  checked value="M">
+                        <label for="imasc">MASCULINO</label>
+                        <br>
+                        <input class="bordafield" type="radio" name="sexo" id="ifeminino" id="ifem" value="F">
+                        <label for="fem">FEMININO</label><br>
+
+                        <input class="bordafield" type="radio" name="sexo" id="ioutro" value="Outro">
+                        <label>OUTRO</label>
+                    </fieldset><br>
+
+                    <label for="date">DATA DE NASCIMENTO:</label>
+                     <input class="bordafield" type="date" name="nascimento" id="idate">
+            
+                    <p>
+                    <label for="telefone">Contato</label><br>
+                    <input class="bordafield" type="number" name="telefone" id="itelefone" required placeholder="(xx) xxxxx-xxxx" ></p>
+                </p>
+                    <label for="">ESTADO:</label>
+                    <select name="estado" id="iestado">
+                        <optgroup label="Regiao Norte">
+                            <option value="">Pará</option>
+                            <option value="">Amazonas</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <label for="">CIDADE:</label>
+                    <select name="cidade" id="icidade">
+                            <option value="">Belém</option>
+                            <option value="">Santa Maria</option>
+                        </optgroup>
+                    </select><br><br>
+                    <p>
+                        <label for="senha">Senha</label><br>
+                    <input class="bordafield" type="password" name="senha" id="isenha" required placeholder="Crie uma senha"></p>
+        
+            <p>
+                <label for="senha">Confirmar senha</label><br>
+                <input class="bordafield" type="password" name="senha" id="isenha" required placeholder="Digite sua senha"></p>
+
+               <center> <input class="bordafield" type="submit" name="" id="" input type="submit" value="cadastrar"></center>
+                </fieldset>
+            </form>       
+    </div>
+    </form>
+</div>
+</body>
+
+</html>
