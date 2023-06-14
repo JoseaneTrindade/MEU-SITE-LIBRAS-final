@@ -3,7 +3,7 @@
 $host ='localhost';
 $user ='root';
 $senha ='';
-$database ='cadastro2';
+$database ='libras';
 
 $conexao = new mysqli($host,$user,$senha,$database);
 ?>
